@@ -84,7 +84,7 @@ export default function Login() {
         })
 
         if (pendientes.length === 0) {
-          setError('🎉 ¡Felicidades! Ya has completado todas las encuestas disponibles para tus cursos.')
+          setError('🎉 ¡Felicidades! Ya has respondido la encuesta.')
           setLoading(false)
           return
         }
