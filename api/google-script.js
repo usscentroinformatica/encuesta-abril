@@ -10,7 +10,7 @@ export default async function handler(req, res) {
   }
 
   // URL de tu Google Apps Script (actualizada con tu nueva implementación)
-  const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyVY8THCp6dAQgT92NcqWnCB8QGBC-9JD5TlQP4cSLgHeQqWF1Hfkm__IAYveZXnRGjaQ/exec";
+  const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxef1BX0SLsGVIK7uiCvEnlxSkI-G9p_PXhiiOXrWMH8BSshlFsdw0b0pt6BD4z9aPDnw/exec";
 
   try {
     let url = GOOGLE_SCRIPT_URL;
